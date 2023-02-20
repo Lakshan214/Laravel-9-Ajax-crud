@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class procuct extends Model
 {
     use HasFactory;
+
+   
 }

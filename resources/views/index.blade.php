@@ -14,6 +14,7 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <h2 class="my-5 text-center">Laravel 9 Ajax crud</h2>
+                <a href="" class="btn btn-success my-3" data-bs-toggle="modal" data-bs-target="#addModal">Add Product</a>
 
                 <table class="table">
                     <thead>
@@ -46,7 +47,7 @@
         </div>
     </div>
          
-        
+   @include('addProduct')    
    @include('js')
 
 </body>

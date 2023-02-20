@@ -17,4 +17,5 @@ use App\Http\Controllers\productCrud;
 
 
 
-Route::get('/',[productCrud::class,'product_view'])->name('product_view');
+Route::get('/',[productCrud::class,'product_view'])->name('product.view');
+Route::post('add-product',[productCrud::class,'addProduct'])->name('add.product');
